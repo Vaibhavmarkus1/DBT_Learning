@@ -1,0 +1,15 @@
+version: 2 
+ 
+models: 
+  - name: fct_sales 
+    description: Fact table containing finalized sales metrics for reporting. 
+ 
+    columns: 
+      - name: order_id 
+        description: Unique identifier for sales transaction. 
+ 
+      - name: revenue 
+        description: Net revenue excluding tax. 
+ 
+      - name: margin 
+        description: Profit margin ratio calculated as profit divided by revenue.
